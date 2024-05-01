@@ -1,0 +1,46 @@
+[
+    {
+        "DB": "Database1",
+        "User": "jose@miprogramita.co",
+        "Classification": "CDE_Critical",
+        "Severity": "Critico",
+        "Override": ""
+    },
+    {
+        "DB": "Database2",
+        "User": "maria@miprogramita.co",
+        "Classification": "NonCDE_NonCritical",
+        "Severity": "Medio",
+        "Override": ""
+    },
+    {
+        "DB": "Database3",
+        "User": "carlos@miprogramita.co",
+        "Classification": "NonCDE_Critical",
+        "Severity": "Alto",
+        "Override": ""
+    },
+    {
+        "DB": "Database4",
+        "User": "andrea@miprogramita.co",
+        "Classification": "PII",
+        "Severity": "Medio",
+        "Override": ""
+    },
+    {
+        "DB": "Database5",
+        "User": "juan@miprogramita.co",
+        "Classification": "PII_Sensitive",
+        "Severity": "Alto",
+        "Override": ""
+    },
+    {
+        "DB": "Database6",
+        "User": "luisa@miprogramita.co",
+        "Override": "Medio"
+    },
+    {
+        "DB": "Database7",
+        "Override": "Alto"
+    }
+]

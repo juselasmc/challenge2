@@ -1,0 +1,51 @@
+<!doctype html>
+<title>ValidadorML</title>
+<html>
+<head>
+    <style>
+    .custom-file-upload {
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .custom-file-upload:hover {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #4CAF50;
+    }
+    </style>
+</head>
+<body>
+    <h1 style="color: #5e9ca0;">Validador de Base de datos - Challenge2</h1>
+    <h2 style="color: #2e6c80;">Instrucciones:</h2>
+    <p>Por favor selecciona los ficheros de relacion. JSON para las bases de datos y CSV para la relacion de usuarios.&nbsp;</p>
+
+    <h2 style="color: #2e6c80;">Selecciona tus ficheros:</h2>
+    <p><strong>&nbsp;</strong></p>
+
+    <form method="post" enctype="multipart/form-data">
+        <label for="csv" class="custom-file-upload">
+        Fichero CSV - Relacion Usuarios
+        </label>
+        <input type="file" id="csv" name="csv" accept=".csv" style="display: none;">
+    
+        <label for="json" class="custom-file-upload">
+        Fichero JSON - Clasificacion DB
+        </label>
+        <input type="file" id="json" name="json" accept=".json" style="display: none;">
+    
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
